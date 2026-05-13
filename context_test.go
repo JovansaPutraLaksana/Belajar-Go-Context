@@ -31,4 +31,12 @@ func TestContextWithValue(t *testing.T) {
 	fmt.Println(contextD)
 	fmt.Println(contextE)
 	fmt.Println(contextF)
+
+	fmt.Println("====================")
+
+	fmt.Println(contextB.Value("b"))
+	fmt.Println(contextC.Value("c"))
+	fmt.Println(contextD.Value("d"))
+	fmt.Println(contextE.Value("e"))
+	fmt.Println(contextF.Value("f"))
 }
